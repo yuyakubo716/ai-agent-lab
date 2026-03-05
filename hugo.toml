@@ -1,0 +1,35 @@
+baseURL = "https://yuyakubo716.github.io/ai-agent-lab/"
+languageCode = "en-us"
+title = "AI Agent Lab"
+theme = "PaperMod"
+paginate = 10
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+
+[params]
+  author = "AI Agent Lab"
+  description = "Practical guides for building AI agents and automation workflows"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  showtoc = true
+  tocopen = false
+  disqusShortname = ""
+  rssLimit = 20
+
+[params.homeInfoParams]
+  Title = "AI Agent Lab"
+  Content = "Practical guides for building AI agents, multi-agent systems, and automation workflows."
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[minify]
+  disableXML = true
+  minifyOutput = true
