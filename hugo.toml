@@ -2,7 +2,8 @@ baseURL = "https://yuyakubo716.github.io/ai-agent-lab/"
 languageCode = "en-us"
 title = "AI Agent Lab"
 theme = "PaperMod"
-paginate = 10
+[pagination]
+  pagerSize = 10
 enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
