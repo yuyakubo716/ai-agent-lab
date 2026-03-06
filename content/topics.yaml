@@ -116,7 +116,9 @@ topics:
   category: Comparisons
   audience: Developers choosing an AI framework
   difficulty: intermediate
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: langchain-vs-langgraph-comparison.md
 - id: T009
   title: 'Vector Databases Compared: Pinecone vs Chroma vs Weaviate for AI Agents'
   slug: vector-databases-compared-pinecone-chroma-weaviate
@@ -130,7 +132,9 @@ topics:
   category: Comparisons
   audience: Developers building RAG applications
   difficulty: intermediate
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: vector-databases-compared-pinecone-chroma-weaviate.md
 - id: T010
   title: 'OpenAI Agents SDK vs Claude API: Which to Use for Building AI Agents in
     2026'
@@ -144,7 +148,9 @@ topics:
   category: Comparisons
   audience: Developers evaluating AI providers
   difficulty: beginner
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: openai-agents-sdk-vs-claude-api-comparison.md
 - id: T011
   title: 'Claude Tool Use vs Function Calling: A Developer''s Guide'
   slug: claude-tool-use-vs-function-calling-guide
