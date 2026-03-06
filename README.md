@@ -2,7 +2,7 @@
 
 Practical guides for building AI agents, multi-agent systems, and automation workflows.
 
-**Blog**: https://yuyakubo716.github.io/ai-agent-lab/
+**Blog**: https://ai-agent-lab.pages.dev/
 
 ## Topics
 - Multi-agent system architecture and implementation
@@ -27,7 +27,7 @@ hugo server -D
    hugo new posts/your-article-slug.md
    ```
 2. Edit the file with your content (set `draft: false` when ready)
-3. Commit and push to `main` — GitHub Actions deploys automatically
+3. Commit and push to `main` — GitHub Actions deploys to Cloudflare Pages automatically
 
 ## License
 
