@@ -26,7 +26,9 @@ topics:
   category: Tutorials
   audience: Python developers exploring agentic frameworks
   difficulty: intermediate
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: langgraph-tutorial-stateful-ai-workflows.md
 - id: T003
   title: 'MCP (Model Context Protocol) Tutorial: Connect AI Agents to Any Tool'
   slug: mcp-model-context-protocol-tutorial
@@ -39,7 +41,9 @@ topics:
   category: Tutorials
   audience: Developers building Claude-based agents
   difficulty: beginner
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: mcp-model-context-protocol-tutorial.md
 - id: T004
   title: 'How to Deploy AI Agents to Production: Docker, FastAPI, and AWS'
   slug: deploy-ai-agents-production-docker-fastapi
@@ -52,7 +56,9 @@ topics:
   category: Tutorials
   audience: Backend engineers deploying AI systems
   difficulty: advanced
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: deploy-ai-agents-production-docker-fastapi.md
 - id: T005
   title: 'AI Agent Memory Systems: Short-Term vs Long-Term Persistent Context'
   slug: ai-agent-memory-systems-persistent-context
@@ -65,7 +71,9 @@ topics:
   category: Tutorials
   audience: Developers building production AI agents
   difficulty: intermediate
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: ai-agent-memory-systems-persistent-context.md
 - id: T006
   title: Building a Web Scraping Agent with Claude and Playwright
   slug: web-scraping-agent-claude-playwright
@@ -78,7 +86,9 @@ topics:
   category: Tutorials
   audience: Data engineers and automation developers
   difficulty: intermediate
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: web-scraping-agent-claude-playwright.md
 - id: T007
   title: 'Prompt Engineering for Multi-Agent Systems: Patterns That Actually Work'
   slug: prompt-engineering-multi-agent-systems
@@ -91,7 +101,9 @@ topics:
   category: Tutorials
   audience: AI engineers and prompt engineers
   difficulty: intermediate
-  status: pending
+  status: published
+  published_at: '2026-03-06'
+  output_file: prompt-engineering-multi-agent-systems.md
 - id: T008
   title: 'LangChain vs LangGraph: When to Use Each for AI Agent Development'
   slug: langchain-vs-langgraph-comparison
