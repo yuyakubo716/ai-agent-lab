@@ -1,230 +1,304 @@
 topics:
-  - id: "T001"
-    title: "Building a RAG Agent from Scratch: Retrieval-Augmented Generation Tutorial"
-    slug: "building-rag-agent-from-scratch"
-    main_keyword: "RAG agent tutorial"
-    lsi_keywords: ["retrieval augmented generation", "vector database", "AI agent memory", "embedding"]
-    category: "Tutorials"
-    audience: "Intermediate developers building AI applications"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T002"
-    title: "LangGraph Tutorial: Building Stateful AI Workflows with Graphs"
-    slug: "langgraph-tutorial-stateful-ai-workflows"
-    main_keyword: "LangGraph tutorial"
-    lsi_keywords: ["stateful AI", "workflow graph", "LangChain", "agent state management"]
-    category: "Tutorials"
-    audience: "Python developers exploring agentic frameworks"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T003"
-    title: "MCP (Model Context Protocol) Tutorial: Connect AI Agents to Any Tool"
-    slug: "mcp-model-context-protocol-tutorial"
-    main_keyword: "Model Context Protocol tutorial"
-    lsi_keywords: ["MCP", "Claude tools", "AI agent integration", "tool calling"]
-    category: "Tutorials"
-    audience: "Developers building Claude-based agents"
-    difficulty: "beginner"
-    status: "pending"
-
-  - id: "T004"
-    title: "How to Deploy AI Agents to Production: Docker, FastAPI, and AWS"
-    slug: "deploy-ai-agents-production-docker-fastapi"
-    main_keyword: "deploy AI agents production"
-    lsi_keywords: ["Docker AI agent", "FastAPI", "AWS Lambda", "AI deployment"]
-    category: "Tutorials"
-    audience: "Backend engineers deploying AI systems"
-    difficulty: "advanced"
-    status: "pending"
-
-  - id: "T005"
-    title: "AI Agent Memory Systems: Short-Term vs Long-Term Persistent Context"
-    slug: "ai-agent-memory-systems-persistent-context"
-    main_keyword: "AI agent memory"
-    lsi_keywords: ["persistent memory", "context window", "vector store", "agent state"]
-    category: "Tutorials"
-    audience: "Developers building production AI agents"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T006"
-    title: "Building a Web Scraping Agent with Claude and Playwright"
-    slug: "web-scraping-agent-claude-playwright"
-    main_keyword: "web scraping AI agent"
-    lsi_keywords: ["Playwright", "Claude API", "browser automation", "data extraction agent"]
-    category: "Tutorials"
-    audience: "Data engineers and automation developers"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T007"
-    title: "Prompt Engineering for Multi-Agent Systems: Patterns That Actually Work"
-    slug: "prompt-engineering-multi-agent-systems"
-    main_keyword: "prompt engineering multi-agent"
-    lsi_keywords: ["system prompt", "agent persona", "role prompting", "chain-of-thought"]
-    category: "Tutorials"
-    audience: "AI engineers and prompt engineers"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T008"
-    title: "LangChain vs LangGraph: When to Use Each for AI Agent Development"
-    slug: "langchain-vs-langgraph-comparison"
-    main_keyword: "LangChain vs LangGraph"
-    lsi_keywords: ["LangChain", "LangGraph", "AI framework comparison", "agent orchestration"]
-    category: "Comparisons"
-    audience: "Developers choosing an AI framework"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T009"
-    title: "Vector Databases Compared: Pinecone vs Chroma vs Weaviate for AI Agents"
-    slug: "vector-databases-compared-pinecone-chroma-weaviate"
-    main_keyword: "vector database comparison"
-    lsi_keywords: ["Pinecone", "Chroma", "Weaviate", "embeddings", "semantic search"]
-    category: "Comparisons"
-    audience: "Developers building RAG applications"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T010"
-    title: "OpenAI Agents SDK vs Claude API: Which to Use for Building AI Agents in 2026"
-    slug: "openai-agents-sdk-vs-claude-api-comparison"
-    main_keyword: "OpenAI Agents SDK vs Claude API"
-    lsi_keywords: ["OpenAI API", "Anthropic Claude", "AI agent SDK", "agent framework 2026"]
-    category: "Comparisons"
-    audience: "Developers evaluating AI providers"
-    difficulty: "beginner"
-    status: "pending"
-
-  - id: "T011"
-    title: "Claude Tool Use vs Function Calling: A Developer's Guide"
-    slug: "claude-tool-use-vs-function-calling-guide"
-    main_keyword: "Claude tool use API"
-    lsi_keywords: ["function calling", "tool use", "Claude API", "JSON schema"]
-    category: "Tutorials"
-    audience: "Developers integrating LLM tool calling"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T012"
-    title: "Building an AI Research Agent That Summarizes arXiv Papers"
-    slug: "ai-research-agent-arxiv-paper-summarizer"
-    main_keyword: "AI research agent"
-    lsi_keywords: ["paper summarizer", "arXiv", "RAG", "research automation"]
-    category: "Case Studies"
-    audience: "Researchers and data scientists"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T013"
-    title: "How to Monitor and Debug AI Agent Workflows in Production"
-    slug: "monitor-debug-ai-agent-workflows-production"
-    main_keyword: "monitor AI agent production"
-    lsi_keywords: ["LangSmith", "observability", "tracing", "debugging AI agents"]
-    category: "Tutorials"
-    audience: "Platform engineers running AI systems"
-    difficulty: "advanced"
-    status: "pending"
-
-  - id: "T014"
-    title: "Building a GitHub PR Review Bot with AI Agents"
-    slug: "github-pr-review-bot-ai-agents"
-    main_keyword: "AI PR review bot"
-    lsi_keywords: ["GitHub Actions", "automated PR review", "Claude API", "code quality bot"]
-    category: "Workflows"
-    audience: "DevOps engineers and team leads"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T015"
-    title: "How to Chain AI Agents for Complex Multi-Step Tasks"
-    slug: "chain-ai-agents-multi-step-tasks"
-    main_keyword: "chain AI agents"
-    lsi_keywords: ["agent chaining", "sequential agents", "task decomposition", "pipeline AI"]
-    category: "Tutorials"
-    audience: "Engineers building complex AI pipelines"
-    difficulty: "advanced"
-    status: "pending"
-
-  - id: "T016"
-    title: "Implementing Human-in-the-Loop AI Workflows: When to Pause for Approval"
-    slug: "human-in-the-loop-ai-workflows"
-    main_keyword: "human in the loop AI"
-    lsi_keywords: ["HITL", "approval workflow", "agent oversight", "AI safety"]
-    category: "Workflows"
-    audience: "Enterprise AI teams needing oversight"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T017"
-    title: "Building an AI Agent That Writes and Tests Code Automatically"
-    slug: "ai-agent-writes-tests-code-automatically"
-    main_keyword: "AI coding agent"
-    lsi_keywords: ["code generation", "automated testing", "TDD AI", "Claude code agent"]
-    category: "Case Studies"
-    audience: "Software engineers exploring AI-assisted development"
-    difficulty: "advanced"
-    status: "pending"
-
-  - id: "T018"
-    title: "AI Agents for Data Analysis: Automating EDA with Python"
-    slug: "ai-agents-data-analysis-automated-eda"
-    main_keyword: "AI data analysis agent"
-    lsi_keywords: ["EDA automation", "pandas", "data pipeline", "AI analytics"]
-    category: "Workflows"
-    audience: "Data scientists and analysts"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T019"
-    title: "Building a Customer Support AI Agent with Escalation Logic"
-    slug: "customer-support-ai-agent-escalation"
-    main_keyword: "customer support AI agent"
-    lsi_keywords: ["chatbot", "support automation", "escalation", "intent classification"]
-    category: "Case Studies"
-    audience: "Product managers and support teams"
-    difficulty: "intermediate"
-    status: "pending"
-
-  - id: "T020"
-    title: "How to Build a News Aggregation Agent with Scheduled Summaries"
-    slug: "news-aggregation-agent-scheduled-summaries"
-    main_keyword: "news aggregation AI agent"
-    lsi_keywords: ["RSS feed", "news summarizer", "scheduled agent", "digest automation"]
-    category: "Tutorials"
-    audience: "Developers building content automation tools"
-    difficulty: "beginner"
-    status: "pending"
-
-  - id: "T021"
-    title: "Getting Started with Claude API: Building Your First AI Agent in Python"
-    slug: "claude-api-getting-started-first-ai-agent"
-    main_keyword: "Claude API tutorial"
-    lsi_keywords: ["Anthropic API", "Python AI agent", "beginners guide", "claude-3-5-sonnet"]
-    category: "Tutorials"
-    audience: "Beginners new to AI agent development"
-    difficulty: "beginner"
-    status: "pending"
-
-  - id: "T022"
-    title: "AI Agent Security: Preventing Prompt Injection and Data Leakage"
-    slug: "ai-agent-security-prompt-injection-prevention"
-    main_keyword: "AI agent security"
-    lsi_keywords: ["prompt injection", "data leakage", "secure AI", "agent guardrails"]
-    category: "Tutorials"
-    audience: "Security-conscious AI developers"
-    difficulty: "advanced"
-    status: "pending"
-
-  - id: "T023"
-    title: "Building a Document Processing Pipeline with AI Agents"
-    slug: "document-processing-pipeline-ai-agents"
-    main_keyword: "document processing AI agent"
-    lsi_keywords: ["PDF extraction", "document AI", "OCR automation", "invoice processing"]
-    category: "Workflows"
-    audience: "Enterprises automating document workflows"
-    difficulty: "intermediate"
-    status: "pending"
+- id: T001
+  title: 'Building a RAG Agent from Scratch: Retrieval-Augmented Generation Tutorial'
+  slug: building-rag-agent-from-scratch
+  main_keyword: RAG agent tutorial
+  lsi_keywords:
+  - retrieval augmented generation
+  - vector database
+  - AI agent memory
+  - embedding
+  category: Tutorials
+  audience: Intermediate developers building AI applications
+  difficulty: intermediate
+  status: published
+  published_at: '2026-03-06'
+  output_file: building-rag-agent-from-scratch.md
+- id: T002
+  title: 'LangGraph Tutorial: Building Stateful AI Workflows with Graphs'
+  slug: langgraph-tutorial-stateful-ai-workflows
+  main_keyword: LangGraph tutorial
+  lsi_keywords:
+  - stateful AI
+  - workflow graph
+  - LangChain
+  - agent state management
+  category: Tutorials
+  audience: Python developers exploring agentic frameworks
+  difficulty: intermediate
+  status: pending
+- id: T003
+  title: 'MCP (Model Context Protocol) Tutorial: Connect AI Agents to Any Tool'
+  slug: mcp-model-context-protocol-tutorial
+  main_keyword: Model Context Protocol tutorial
+  lsi_keywords:
+  - MCP
+  - Claude tools
+  - AI agent integration
+  - tool calling
+  category: Tutorials
+  audience: Developers building Claude-based agents
+  difficulty: beginner
+  status: pending
+- id: T004
+  title: 'How to Deploy AI Agents to Production: Docker, FastAPI, and AWS'
+  slug: deploy-ai-agents-production-docker-fastapi
+  main_keyword: deploy AI agents production
+  lsi_keywords:
+  - Docker AI agent
+  - FastAPI
+  - AWS Lambda
+  - AI deployment
+  category: Tutorials
+  audience: Backend engineers deploying AI systems
+  difficulty: advanced
+  status: pending
+- id: T005
+  title: 'AI Agent Memory Systems: Short-Term vs Long-Term Persistent Context'
+  slug: ai-agent-memory-systems-persistent-context
+  main_keyword: AI agent memory
+  lsi_keywords:
+  - persistent memory
+  - context window
+  - vector store
+  - agent state
+  category: Tutorials
+  audience: Developers building production AI agents
+  difficulty: intermediate
+  status: pending
+- id: T006
+  title: Building a Web Scraping Agent with Claude and Playwright
+  slug: web-scraping-agent-claude-playwright
+  main_keyword: web scraping AI agent
+  lsi_keywords:
+  - Playwright
+  - Claude API
+  - browser automation
+  - data extraction agent
+  category: Tutorials
+  audience: Data engineers and automation developers
+  difficulty: intermediate
+  status: pending
+- id: T007
+  title: 'Prompt Engineering for Multi-Agent Systems: Patterns That Actually Work'
+  slug: prompt-engineering-multi-agent-systems
+  main_keyword: prompt engineering multi-agent
+  lsi_keywords:
+  - system prompt
+  - agent persona
+  - role prompting
+  - chain-of-thought
+  category: Tutorials
+  audience: AI engineers and prompt engineers
+  difficulty: intermediate
+  status: pending
+- id: T008
+  title: 'LangChain vs LangGraph: When to Use Each for AI Agent Development'
+  slug: langchain-vs-langgraph-comparison
+  main_keyword: LangChain vs LangGraph
+  lsi_keywords:
+  - LangChain
+  - LangGraph
+  - AI framework comparison
+  - agent orchestration
+  category: Comparisons
+  audience: Developers choosing an AI framework
+  difficulty: intermediate
+  status: pending
+- id: T009
+  title: 'Vector Databases Compared: Pinecone vs Chroma vs Weaviate for AI Agents'
+  slug: vector-databases-compared-pinecone-chroma-weaviate
+  main_keyword: vector database comparison
+  lsi_keywords:
+  - Pinecone
+  - Chroma
+  - Weaviate
+  - embeddings
+  - semantic search
+  category: Comparisons
+  audience: Developers building RAG applications
+  difficulty: intermediate
+  status: pending
+- id: T010
+  title: 'OpenAI Agents SDK vs Claude API: Which to Use for Building AI Agents in
+    2026'
+  slug: openai-agents-sdk-vs-claude-api-comparison
+  main_keyword: OpenAI Agents SDK vs Claude API
+  lsi_keywords:
+  - OpenAI API
+  - Anthropic Claude
+  - AI agent SDK
+  - agent framework 2026
+  category: Comparisons
+  audience: Developers evaluating AI providers
+  difficulty: beginner
+  status: pending
+- id: T011
+  title: 'Claude Tool Use vs Function Calling: A Developer''s Guide'
+  slug: claude-tool-use-vs-function-calling-guide
+  main_keyword: Claude tool use API
+  lsi_keywords:
+  - function calling
+  - tool use
+  - Claude API
+  - JSON schema
+  category: Tutorials
+  audience: Developers integrating LLM tool calling
+  difficulty: intermediate
+  status: pending
+- id: T012
+  title: Building an AI Research Agent That Summarizes arXiv Papers
+  slug: ai-research-agent-arxiv-paper-summarizer
+  main_keyword: AI research agent
+  lsi_keywords:
+  - paper summarizer
+  - arXiv
+  - RAG
+  - research automation
+  category: Case Studies
+  audience: Researchers and data scientists
+  difficulty: intermediate
+  status: pending
+- id: T013
+  title: How to Monitor and Debug AI Agent Workflows in Production
+  slug: monitor-debug-ai-agent-workflows-production
+  main_keyword: monitor AI agent production
+  lsi_keywords:
+  - LangSmith
+  - observability
+  - tracing
+  - debugging AI agents
+  category: Tutorials
+  audience: Platform engineers running AI systems
+  difficulty: advanced
+  status: pending
+- id: T014
+  title: Building a GitHub PR Review Bot with AI Agents
+  slug: github-pr-review-bot-ai-agents
+  main_keyword: AI PR review bot
+  lsi_keywords:
+  - GitHub Actions
+  - automated PR review
+  - Claude API
+  - code quality bot
+  category: Workflows
+  audience: DevOps engineers and team leads
+  difficulty: intermediate
+  status: pending
+- id: T015
+  title: How to Chain AI Agents for Complex Multi-Step Tasks
+  slug: chain-ai-agents-multi-step-tasks
+  main_keyword: chain AI agents
+  lsi_keywords:
+  - agent chaining
+  - sequential agents
+  - task decomposition
+  - pipeline AI
+  category: Tutorials
+  audience: Engineers building complex AI pipelines
+  difficulty: advanced
+  status: pending
+- id: T016
+  title: 'Implementing Human-in-the-Loop AI Workflows: When to Pause for Approval'
+  slug: human-in-the-loop-ai-workflows
+  main_keyword: human in the loop AI
+  lsi_keywords:
+  - HITL
+  - approval workflow
+  - agent oversight
+  - AI safety
+  category: Workflows
+  audience: Enterprise AI teams needing oversight
+  difficulty: intermediate
+  status: pending
+- id: T017
+  title: Building an AI Agent That Writes and Tests Code Automatically
+  slug: ai-agent-writes-tests-code-automatically
+  main_keyword: AI coding agent
+  lsi_keywords:
+  - code generation
+  - automated testing
+  - TDD AI
+  - Claude code agent
+  category: Case Studies
+  audience: Software engineers exploring AI-assisted development
+  difficulty: advanced
+  status: pending
+- id: T018
+  title: 'AI Agents for Data Analysis: Automating EDA with Python'
+  slug: ai-agents-data-analysis-automated-eda
+  main_keyword: AI data analysis agent
+  lsi_keywords:
+  - EDA automation
+  - pandas
+  - data pipeline
+  - AI analytics
+  category: Workflows
+  audience: Data scientists and analysts
+  difficulty: intermediate
+  status: pending
+- id: T019
+  title: Building a Customer Support AI Agent with Escalation Logic
+  slug: customer-support-ai-agent-escalation
+  main_keyword: customer support AI agent
+  lsi_keywords:
+  - chatbot
+  - support automation
+  - escalation
+  - intent classification
+  category: Case Studies
+  audience: Product managers and support teams
+  difficulty: intermediate
+  status: pending
+- id: T020
+  title: How to Build a News Aggregation Agent with Scheduled Summaries
+  slug: news-aggregation-agent-scheduled-summaries
+  main_keyword: news aggregation AI agent
+  lsi_keywords:
+  - RSS feed
+  - news summarizer
+  - scheduled agent
+  - digest automation
+  category: Tutorials
+  audience: Developers building content automation tools
+  difficulty: beginner
+  status: pending
+- id: T021
+  title: 'Getting Started with Claude API: Building Your First AI Agent in Python'
+  slug: claude-api-getting-started-first-ai-agent
+  main_keyword: Claude API tutorial
+  lsi_keywords:
+  - Anthropic API
+  - Python AI agent
+  - beginners guide
+  - claude-3-5-sonnet
+  category: Tutorials
+  audience: Beginners new to AI agent development
+  difficulty: beginner
+  status: pending
+- id: T022
+  title: 'AI Agent Security: Preventing Prompt Injection and Data Leakage'
+  slug: ai-agent-security-prompt-injection-prevention
+  main_keyword: AI agent security
+  lsi_keywords:
+  - prompt injection
+  - data leakage
+  - secure AI
+  - agent guardrails
+  category: Tutorials
+  audience: Security-conscious AI developers
+  difficulty: advanced
+  status: pending
+- id: T023
+  title: Building a Document Processing Pipeline with AI Agents
+  slug: document-processing-pipeline-ai-agents
+  main_keyword: document processing AI agent
+  lsi_keywords:
+  - PDF extraction
+  - document AI
+  - OCR automation
+  - invoice processing
+  category: Workflows
+  audience: Enterprises automating document workflows
+  difficulty: intermediate
+  status: pending
